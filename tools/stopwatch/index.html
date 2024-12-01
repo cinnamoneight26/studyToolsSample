@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stopwatch & Timer</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body module="timer">
+    <div class="tabs d-flex justify-content-center">
+        <a class="btn btn-stopwatch" title="Stopwatch">Stopwatch</a>
+        <a class="btn btn-timer" title="Timer">Timer</a>
+    </div>
+    <div class="container-fluid" > 
+        <div class="d-flex align-items-center justify-content-center wrapper">
+            <div class="justify-content-center content">
+                <div class="body-shadow flex justify-content-center timer">
+                    <div class="body">
+                        <div class="whistle">
+                            <div class="whistle_effect"></div>
+                            <div class="whistle_effect2"></div>
+                        </div>
+                        <div class="timer_btns">
+                            <a class="button start" title="Start"></a>
+                            <a class="button reset" title="Reset"></a>
+                        </div>
+                        <div class="time-setting-bg d-flex align-items-center justify-content-center">
+                            <span>Time<br/>Setting</span>
+                            <a class="button time" time=60 title="1 min">1 min</a>
+                            <a class="button time active" title="3 min" time=180>3 min</a>
+                            <a class="button time" title="5 min" time=300>5 min</a>
+                            <a class="button time" title="10 min" time=600>10 min</a>
+                            <a class="button time custom_timer" time=0></a>
+                            <span>직접<br/>지정</span>
+                            <input type="text" pattern="\d*" class="time custom-time custom_min" id="custom_min" name="custom_min" maxlength="2">
+                            <span>min</span>
+                            <input type="text" pattern="\d*" class="time custom-time custom_sec" id="custom_sec" name="custom_sec" maxlength="2">
+                            <span>sec</span>
+                        </div>
+                        
+                        <div class="time-body">
+                            <div class="min">03</div>
+                            <div class="sec">00</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="body-shadow flex justify-content-center stopwatch">
+                    <div class="body">
+                        <div class="pendulum_frame" >
+                            <div class="pendulum"></div>
+                        </div>
+                        <div class="btns">
+                            <a class="button start" title="시작"></a>
+                            <a class="button reset" title="리셋"></a>
+                        </div>
+                        <div class="hand_frame" >
+                            <div class="hand_effect"></div>
+                        </div>
+                        <div class="stopwatch-body">
+                            <div class="min">00</div>
+                            <div class="colon">:</div>
+                            <div class="sec">00</div>
+                            <div class="msec">00</div>
+                        </div>
+                        <div class="stopwatch_glass">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"> </script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"> </script>
+    <script type="text/javascript" src="js/script.js"> </script>
+</body>
+
+</html>
