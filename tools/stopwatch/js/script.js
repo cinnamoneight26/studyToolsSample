@@ -120,7 +120,7 @@ function on_click_timer_start() {
   var seconds = $(".time-setting-bg a.time.active").attr("time");
 
   if (seconds == "0" || seconds == null || seconds == undefined) {
-    alert("시간을 지정해주세요.");
+    alert("Please specify the time.");
     return;
   }
 
@@ -217,8 +217,6 @@ function start_timer() {
   }, 1000);
 }
 
-// var millisec = 0;
-// var seconds = 0;
 var _stopwatch_timer = undefined;
 var startTime = undefined;
 var updatedTime = undefined;
@@ -229,29 +227,6 @@ var paused = 0;
 var running = 0;
 
 function display() {
-  // if (millisec >= 99) {
-  //     millisec = 0
-  //     seconds += 1
-  //     var min = padLeadingZeros(Math.floor(seconds / 60), 2);
-  //     var sec = padLeadingZeros(seconds % 60, 2);
-  //     $(".stopwatch-body .min").html(min);
-  //     $(".stopwatch-body .sec").html(sec);
-  //     $(".stopwatch-body .msec").html("00");
-  //     // console.log(seconds);
-  //     if (seconds >= 6) {
-  //         console.log(seconds);
-  //         // stoptimer();
-  //     }
-  // }
-  // else {
-  //     millisec += 1
-  //     var msec = padLeadingZeros(millisec, 2);
-  //     $(".stopwatch-body .msec").html(msec);
-
-  // }
-
-  // _stopwatch_timer = setTimeout(display, 10);
-
   updatedTime = new Date().getTime();
   if (savedTime) {
     difference = updatedTime - startTime + savedTime;
@@ -284,8 +259,6 @@ function starttimer() {
   paused = 0;
   running = 1;
   _stopwatch_timer = setInterval(display, 1);
-
-  // display();
 }
 function stoptimer() {
   if (_stopwatch_timer) {
@@ -297,10 +270,6 @@ function stoptimer() {
 }
 
 function startstoptimer() {
-  // if(paused) {
-  //     pauseTimer();
-  //     return;
-  // }
   if (_stopwatch_timer) {
     pauseTimer();
     return;
@@ -341,8 +310,6 @@ function pauseTimer() {
 
 function resettimer() {
   stoptimer();
-  // millisec = 0;
-  // seconds = 0;
   savedTime = 0;
   difference = 0;
   paused = 0;

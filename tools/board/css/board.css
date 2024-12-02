@@ -50,7 +50,7 @@ button, input {
     box-sizing: border-box;
     background-color: transparent;
     transform-origin: 0% 0%;
-    background-image: url('/tools/board/images/bg.png');
+    background-image: url('./../images/bg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -99,7 +99,7 @@ button, input {
     width: 40px;
     height: 40px;
     margin: 0 4px;
-    background-image: url('/tools/board/images/icon-drawing.png');
+    background-image: url('./../images/icon-drawing.png');
 }
 [class^=icon-] {
     display: inline-block;
@@ -140,49 +140,49 @@ button, input {
     vertical-align: middle;
 }
 .icon-drawing2{
-    background-image:url("/tools/board/images/icon-drawing2.png")
+    background-image:url("./../images/icon-drawing2.png")
 }
 .icon-drawing3{
-    background-image:url("/tools/board/images/icon-drawing3.png")
+    background-image:url("./../images/icon-drawing3.png")
 }
 .icon-drawing4{
-    background-image:url("/tools/board/images/icon-drawing4.png")
+    background-image:url("./../images/icon-drawing4.png")
 }
 .icon-drawing5{
-    background-image:url("/tools/board/images/icon-drawing5.png")
+    background-image:url("./../images/icon-drawing5.png")
 }
 .icon-drawing6{
-    background-image:url("/tools/board/images/icon-drawing6.png")
+    background-image:url("./../images/icon-drawing6.png")
 }
 .icon-drawing7{
-    background-image:url("/tools/board/images/icon-drawing7.png")
+    background-image:url("./../images/icon-drawing7.png")
 }
 .icon-drawing.active{
-    background-image:url("/tools/board/images/icon-drawing-on.png")}
+    background-image:url("./../images/icon-drawing-on.png")}
 
 .icon-drawing2.active{
-    background-image:url("/tools/board/images/icon-drawing2-on.png")
+    background-image:url("./../images/icon-drawing2-on.png")
 }
 .icon-drawing3.active{
-    background-image:url("/tools/board/images/icon-drawing3-on.png")
+    background-image:url("./../images/icon-drawing3-on.png")
 }
 .icon-drawing4.active{
-    background-image:url("/tools/board/images/icon-drawing4-on.png")
+    background-image:url("./../images/icon-drawing4-on.png")
 }
 .icon-drawing5.active{
-    background-image:url("/tools/board/images/icon-drawing5-on.png")
+    background-image:url("./../images/icon-drawing5-on.png")
 }
 .icon-drawing6.active{
-    background-image:url("/tools/board/images/icon-drawing6-on.png")
+    background-image:url("./../images/icon-drawing6-on.png")
 }
 [class^=icon-font]{
-    width: 40px;background-image:url("/tools/board/images/icon-font-lg.png")
+    width: 40px;background-image:url("./../images/icon-font-lg.png")
 }
 .icon-font-sm{ 
-    background-image:url("/tools/board/images/icon-font-sm.png")
+    background-image:url("./../images/icon-font-sm.png")
 }
 .icon-font-color{
-    width:25px; background-image:url("/tools/board/images/icon-font-color.png")
+    width:25px; background-image:url("./../images/icon-font-color.png")
 }
 [class^=icon-drawing].active{
     background-color:#00cbb4
@@ -480,21 +480,21 @@ button, input {
     width: 40px; 
     height: 40px; 
     margin: 0 10px; 
-    background:url("/tools/board/images/icon-font-lg.png") no-repeat 100% 100% center;
+    background:url("./../images/icon-font-lg.png") no-repeat 100% 100% center;
 }
 .icon-font-sm {
     width: 40px; 
     height: 40px; 
     margin: 0px; 
     padding: 0 30px; 
-    background:url("/tools/board/images/icon-font-sm.png") no-repeat 100% 100% center;  
+    background:url("./../images/icon-font-sm.png") no-repeat 100% 100% center;  
     border-right: 1px solid #d0d0d0;
 }
 .icon-font-color {
     width: 50px; 
     height: 40px; 
     margin: 0 10px; 
-    background:url("/tools/board/images/icon-font-color.png") no-repeat 100% 100% center;
+    background:url("./../images/icon-font-color.png") no-repeat 100% 100% center;
 }
 .icon-font-color > span {
     margin-left: 35px
@@ -573,28 +573,28 @@ button, input {
     background-position: center;
 }
 #image_select .icon-arrow {
-    background-image :url("/tools/board/images/icon-figure.png");
+    background-image :url("./../images/icon-figure.png");
 }
 #image_select .icon-arrow.active{
-    background-image :url("/tools/board/images/icon-figure-on.png");
+    background-image :url("./../images/icon-figure-on.png");
 }
 #image_select .icon-line {
-    background-image :url("/tools/board/images/icon-figure2.png");
+    background-image :url("./../images/icon-figure2.png");
 }
 #image_select .icon-line.active{
-    background-image :url("/tools/board/images/icon-figure2-on.png");
+    background-image :url("./../images/icon-figure2-on.png");
 }
 #image_select .icon-hlighter {
-    background-image:url("/tools/board/images/icon-figure3.png");
+    background-image:url("./../images/icon-figure3.png");
 }
 #image_select .icon-hlighter.active {
-    background-image:url("/tools/board/images/icon-figure3-on.png");
+    background-image:url("./../images/icon-figure3-on.png");
 }
 #image_select .icon-sticker {
-    background-image:url("/tools/board/images/icon-figure4.png"); 
+    background-image:url("./../images/icon-figure4.png"); 
 }
 #image_select .icon-sticker.active {
-    background-image:url("/tools/board/images/icon-figure4-on.png");
+    background-image:url("./../images/icon-figure4-on.png");
 }
 #image_select .active {
     background-color: #00cbb4;
@@ -634,13 +634,13 @@ button, input {
     vertical-align: middle;
 } 
 .arrow_wrap .icon-arrow-direction {
-    background-image :url("/tools/board/images/icon-figure5.png");
+    background-image :url("./../images/icon-figure5.png");
 }
 .arrow_wrap .icon-arrow-width {
-    background-image :url("/tools/board/images/icon-figure6.png");
+    background-image :url("./../images/icon-figure6.png");
 }
 .arrow_wrap .icon-arrow-dash {
-    background-image :url("/tools/board/images/icon-figure7.png");
+    background-image :url("./../images/icon-figure7.png");
 }
 .arrow_wrap .caret {
     position: relative;
@@ -710,13 +710,13 @@ button, input {
     background-size: 100% 100%;
 }
 .select_arrow_direction_1 {
-    background-image :url("/tools/board/images/icon-figure5-1-active.png");
+    background-image :url("./../images/icon-figure5-1-active.png");
 }
 .select_arrow_direction_2 {
-    background-image :url("/tools/board/images/icon-figure5-2.png");
+    background-image :url("./../images/icon-figure5-2.png");
 }
 .select_arrow_direction_3 {
-    background-image :url("/tools/board/images/icon-figure5-3.png");
+    background-image :url("./../images/icon-figure5-3.png");
 }
 /* 화살표 두께 선택 */
 .arrow_wrap .select_arrow_width_wrap {
@@ -739,19 +739,19 @@ button, input {
     background-size: 100% auto; 
 }
 .select_arrow_width_1 {
-    background-image :url("/tools/board/images/icon-figure6-1.png");
+    background-image :url("./../images/icon-figure6-1.png");
 }
 .select_arrow_width_2 {
-    background-image :url("/tools/board/images/icon-figure6-2-active.png");
+    background-image :url("./../images/icon-figure6-2-active.png");
 }
 .select_arrow_width_3 {
-    background-image :url("/tools/board/images/icon-figure6-3.png");
+    background-image :url("./../images/icon-figure6-3.png");
 }
 .select_arrow_width_4 {
-    background-image :url("/tools/board/images/icon-figure6-4.png");
+    background-image :url("./../images/icon-figure6-4.png");
 }
 .select_arrow_width_5 {
-    background-image :url("/tools/board/images/icon-figure6-5.png");
+    background-image :url("./../images/icon-figure6-5.png");
 }
 /* 화살표 대시 선택 */
 .arrow_wrap .select_arrow_dash_wrap {
@@ -774,13 +774,13 @@ button, input {
     background-position: center;
 }
 .select_arrow_dash_1 {
-    background-image :url("/tools/board/images/icon-figure7-1-active.png");
+    background-image :url("./../images/icon-figure7-1-active.png");
 }
 .select_arrow_dash_2 {
-    background-image :url("/tools/board/images/icon-figure7-2.png");
+    background-image :url("./../images/icon-figure7-2.png");
 }
 .select_arrow_dash_3 {
-    background-image :url("/tools/board/images/icon-figure7-3.png");
+    background-image :url("./../images/icon-figure7-3.png");
 }
 
 /* 직선 보조창*/
@@ -821,10 +821,10 @@ button, input {
     vertical-align: middle;
 } 
 .line_wrap .icon-line-width {
-    background-image :url("/tools/board/images/icon-figure6.png");
+    background-image :url("./../images/icon-figure6.png");
 }
 .line_wrap .icon-line-dash {
-    background-image :url("/tools/board/images/icon-figure7.png");
+    background-image :url("./../images/icon-figure7.png");
 }
 .line_wrap .caret {
     position: relative;
@@ -895,19 +895,19 @@ button, input {
     background-size: 100% auto; 
 }
 .select_line_width_1 {
-    background-image :url("/tools/board/images/icon-figure6-1.png");
+    background-image :url("./../images/icon-figure6-1.png");
 }
 .select_line_width_2 {
-    background-image :url("/tools/board/images/icon-figure6-2-active.png");
+    background-image :url("./../images/icon-figure6-2-active.png");
 }
 .select_line_width_3 {
-    background-image :url("/tools/board/images/icon-figure6-3.png");
+    background-image :url("./../images/icon-figure6-3.png");
 }
 .select_line_width_4 {
-    background-image :url("/tools/board/images/icon-figure6-4.png");
+    background-image :url("./../images/icon-figure6-4.png");
 }
 .select_line_width_5 {
-    background-image :url("/tools/board/images/icon-figure6-5.png");
+    background-image :url("./../images/icon-figure6-5.png");
 }
 /* 직선 대시 선택 */
 .line_wrap .select_line_dash_wrap {
@@ -930,13 +930,13 @@ button, input {
     background-position: center;
 }
 .select_line_dash_1 {
-    background-image :url("/tools/board/images/icon-figure7-1-active.png");
+    background-image :url("./../images/icon-figure7-1-active.png");
 }
 .select_line_dash_2 {
-    background-image :url("/tools/board/images/icon-figure7-2.png");
+    background-image :url("./../images/icon-figure7-2.png");
 }
 .select_line_dash_3 {
-    background-image :url("/tools/board/images/icon-figure7-3.png");
+    background-image :url("./../images/icon-figure7-3.png");
 }
 
 /* 형광펜 보조창*/
@@ -973,7 +973,7 @@ button, input {
     vertical-align: middle
 }
 .hlighter_wrap .icon-hlighter-width{
-    background-image :url("/tools/board/images/icon-figure6.png");
+    background-image :url("./../images/icon-figure6.png");
 }
 .icon-hlighter-width .caret {
     position: relative;
@@ -1043,13 +1043,13 @@ button, input {
     background-size: 100% auto; 
 }
 .select_hlighter_width_1 {
-    background-image :url("/tools/board/images/icon-figure6-1.png");
+    background-image :url("./../images/icon-figure6-1.png");
 }
 .select_hlighter_width_2 {
-    background-image :url("/tools/board/images/icon-figure6-2.png");
+    background-image :url("./../images/icon-figure6-2.png");
 }
 .select_hlighter_width_3 {
-    background-image :url("/tools/board/images/icon-figure6-3-active.png");
+    background-image :url("./../images/icon-figure6-3-active.png");
 }
 
 /* 스티커 보조창 */
@@ -1067,22 +1067,22 @@ button, input {
 }
 .sticker_wrap .icon-sticker_1{
     margin-left: 10px;
-    background-image :url("/tools/board/images/icon-sticker_1.png");
+    background-image :url("./../images/icon-sticker_1.png");
 }
 .sticker_wrap .icon-sticker_2{
-    background-image :url("/tools/board/images/icon-sticker_2.png");
+    background-image :url("./../images/icon-sticker_2.png");
 }
 .sticker_wrap .icon-sticker_3{
-    background-image :url("/tools/board/images/icon-sticker_3.png");
+    background-image :url("./../images/icon-sticker_3.png");
 }
 .sticker_wrap .icon-sticker_4{
-    background-image :url("/tools/board/images/icon-sticker_4.png");
+    background-image :url("./../images/icon-sticker_4.png");
 }
 .sticker_wrap .icon-sticker_5{
-    background-image :url("/tools/board/images/icon-sticker_5.png");
+    background-image :url("./../images/icon-sticker_5.png");
 }
 .sticker_wrap .icon-sticker_6{
-    background-image :url("/tools/board/images/icon-sticker_6.png");
+    background-image :url("./../images/icon-sticker_6.png");
 }
 /* #drawing {
     display: flex;
