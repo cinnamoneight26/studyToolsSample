@@ -3,11 +3,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuItems = document.querySelectorAll("nav ul li span");
   const iframe = document.getElementById("contentFrame");
 
+  const _li = document.querySelectorAll("nav ul li");
+  // _li.classList.remove("active");
+
   menuItems.forEach((item) => {
     item.addEventListener("click", () => {
       const url = item.getAttribute("data-url");
       if (url) {
         iframe.src = url; // iframe의 src를 업데이트
+
+        // _li.classList.add("active");
       }
     });
   });
