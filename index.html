@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="./css/fonts.css" media="all">
     <link rel="stylesheet" type="text/css" href="./css/styles.css" media="all">
     <script type="text/javascript" src="./js/jquery.min.js" defer></script>
-    <script type="text/javascript" src="./js/jquery.min.js" defer></script>
     <script type="text/javascript" src="./js/common.js" defer></script>
     <link rel="preload" href="./fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2" as="font" type="font/woff2"
         crossorigin="anonymous">
@@ -16,7 +15,7 @@
 
 <body>
     <header>
-        <h1><a href="https://ineeth.com/studyToolsSample">📚 Study Tools Sample WebSite </a></h1>
+        <h1><a href="./index.html">📚 Study Tools Sample WebSite </a></h1>
     </header>
     <main>
         <nav>
@@ -41,17 +40,43 @@
                 </li>
             </ul>
         </nav>
-        <section>
-            <!-- iframe이 오른쪽에 로드됨 -->
-            <iframe id="contentFrame" src="" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+
+        <!-- 아이프레임 영역, 처음에는 숨김 -->
+        <section id="iframe-container" style="display: none;">
+            <iframe id="menu-iframe" src="" width="100%" height="100%"></iframe>
+        </section>
+
+        <!-- 메뉴 설명 영역, 처음에 보임 -->
+        <section id="menu-description">
+            <h2>메뉴 설명</h2>
+            <ul>
+                <li>
+                    <h3>Blackboard</h3>
+                    <p>Blackboard는 학습 도구로, 온라인 게시판을 제공합니다. 학생들이 질문을 올리고 답변을 할 수 있습니다.</p>
+                </li>
+                <li>
+                    <h3>Stopwatch & Timer</h3>
+                    <p>Stopwatch는 시간을 측정하는 도구로, 정확한 시간 측정이 가능합니다. Timer는 알림 기능이 있어 설정된 시간에 알림을 제공합니다.</p>
+                </li>
+                <li>
+                    <h3>Waiting</h3>
+                    <p>Waiting은 대기 시간 동안 작업을 할 수 있도록 돕는 도구입니다. 대기 시간이 길어지면 작업을 할 수 있는 기능을 제공합니다.</p>
+                </li>
+                <li>
+                    <h3>주의집중</h3>
+                    <p>주의집중은 사용자가 특정 작업에 집중할 수 있도록 돕는 도구입니다. 타이머와 함께 동작합니다.</p>
+                </li>
+                <li>
+                    <h3>발표자선정</h3>
+                    <p>발표자선정은 발표자를 랜덤으로 선택하는 도구입니다. 학생들이 발표를 할 순서를 랜덤으로 정합니다.</p>
+                </li>
+                <li>
+                    <h3>모둠점수판</h3>
+                    <p>모둠점수판은 팀별로 점수를 기록하고, 실시간으로 점수를 업데이트 할 수 있는 도구입니다.</p>
+                </li>
+            </ul>
         </section>
     </main>
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p id="modal-text"></p>
-        </div>
-    </div>
 </body>
 
 </html>
