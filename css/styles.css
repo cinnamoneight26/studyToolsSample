@@ -66,6 +66,9 @@ li span:hover,
 li span.active {
     color: #FF5757;
 }
+iframe{
+    border: none !important;
+}
 #menu-description {
     height: fit-content;
 }
@@ -75,4 +78,15 @@ li span.active {
 }
 #menu-description li p {
     margin-left: 20px;
+}
+#device-warning {
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffcc00;
+    margin: 0 auto;
+    padding-top: 25%;
+    overflow: hidden;
+    color: #000;
 }
