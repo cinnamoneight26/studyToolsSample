@@ -6,13 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   menuItems.forEach((item) => {
     item.addEventListener("click", () => {
+      menuItems.forEach((menuItem) => menuItem.classList.remove("active"));
+      item.classList.add("active");
       const url = item.getAttribute("data-url");
 
-      // 메뉴 클릭 시, 설명 부분 숨기고 iframe을 보이도록
       menuDescription.style.display = "none";
       iframeContainer.style.display = "block";
-
-      // 아이프레임의 src를 업데이트
       iframe.src = url;
     });
   });

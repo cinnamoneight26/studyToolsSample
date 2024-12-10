@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Tools Sample WebSite</title>
+    <title>Study Tools Sample Website</title>
     <link rel="stylesheet" type="text/css" href="./css/fonts.css" media="all">
     <link rel="stylesheet" type="text/css" href="./css/styles.css" media="all">
     <script type="text/javascript" src="./js/jquery.min.js" defer></script>
@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <h1><a href="./index.html">📚 Study Tools Sample WebSite </a></h1>
+        <h1><a href="./index.html">📚 Study Tools Sample Website </a></h1>
     </header>
     <main>
         <nav>
@@ -27,52 +27,58 @@
                     <span data-url="./tools/stopwatch/index.html">Stopwatch & Timer</span>
                 </li>
                 <li>
-                    <span data-url="./tools/waiting/index.html">Waiting</span>
+                    <span data-url="./tools/waiting/index.html">Waiting Screen</span>
                 </li>
                 <li>
-                    <span data-url="./tools/attention/index.html">주의집중</span>
+                    <span data-url="./tools/attention/index.html">FocusAid</span>
                 </li>
                 <li>
-                    <span data-url="./tools/activity/index.html">발표자선정</span>
+                    <span data-url="./tools/activity/index.html">Presenter Selector</span>
                 </li>
                 <li>
-                    <span data-url="./tools/collectivemake/index.html">모둠점수판</span>
+                    <span data-url="./tools/collectivemake/index.html">Team Scoreboard</span>
                 </li>
             </ul>
         </nav>
 
-        <!-- 아이프레임 영역, 처음에는 숨김 -->
+        <!-- iFrame section, initially hidden -->
         <section id="iframe-container" style="display: none;">
             <iframe id="menu-iframe" src="" width="100%" height="100%"></iframe>
         </section>
 
-        <!-- 메뉴 설명 영역, 처음에 보임 -->
+        <!-- Menu description section, initially visible -->
         <section id="menu-description">
-            <h2>메뉴 설명</h2>
+            <h2>Menu Descriptions</h2>
             <ul>
                 <li>
                     <h3>Blackboard</h3>
-                    <p>Blackboard는 학습 도구로, 온라인 게시판을 제공합니다. 학생들이 질문을 올리고 답변을 할 수 있습니다.</p>
+                    <p>📍 This tool allows you to freely draw or write on a virtual blackboard. It provides various
+                        design options like dotted lines, straight lines, and arrows.</p>
+                    <p>📍 Built with Konva JavaScript Framework v7.2.0</p>
                 </li>
                 <li>
                     <h3>Stopwatch & Timer</h3>
-                    <p>Stopwatch는 시간을 측정하는 도구로, 정확한 시간 측정이 가능합니다. Timer는 알림 기능이 있어 설정된 시간에 알림을 제공합니다.</p>
+                    <p>📍 A timer tool that tracks time and provides notifications. It helps efficiently manage time for
+                        activities.</p>
                 </li>
                 <li>
-                    <h3>Waiting</h3>
-                    <p>Waiting은 대기 시간 동안 작업을 할 수 있도록 돕는 도구입니다. 대기 시간이 길어지면 작업을 할 수 있는 기능을 제공합니다.</p>
+                    <h3>Waiting Screen</h3>
+                    <p>📍 This screen is used during activities like problem-solving to help students focus during the
+                        waiting period.</p>
                 </li>
                 <li>
-                    <h3>주의집중</h3>
-                    <p>주의집중은 사용자가 특정 작업에 집중할 수 있도록 돕는 도구입니다. 타이머와 함께 동작합니다.</p>
+                    <h3>FocusAid</h3>
+                    <p>📍 A tool that helps students regain focus during class by playing various instrumental sounds
+                        when concentration drops.</p>
                 </li>
                 <li>
-                    <h3>발표자선정</h3>
-                    <p>발표자선정은 발표자를 랜덤으로 선택하는 도구입니다. 학생들이 발표를 할 순서를 랜덤으로 정합니다.</p>
+                    <h3>Presenter Selector</h3>
+                    <p>📍 A tool that randomly selects a presenter, ensuring a fair and quick selection process.</p>
                 </li>
                 <li>
-                    <h3>모둠점수판</h3>
-                    <p>모둠점수판은 팀별로 점수를 기록하고, 실시간으로 점수를 업데이트 할 수 있는 도구입니다.</p>
+                    <h3>Team Scoreboard</h3>
+                    <p>📍 A scoreboard tool that tracks and updates team scores in real time, useful for team activities
+                        or games.</p>
                 </li>
             </ul>
         </section>
