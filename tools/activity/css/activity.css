@@ -138,7 +138,7 @@ span {
     position: absolute;
     left: 32.5%;
     top : 50%;
-    width: 35%;
+    width: 25%;
     height: 10vh;
     display: block;
     background-image: url('../images/start_btn_off.png');
@@ -202,7 +202,7 @@ span {
     color: #6b3d17;
     border: 3px solid #6b3d17;
     text-align: center;
-    font-size: 3.5vw;
+    font-size:2rem;
     font-weight: 700;
     margin-left: 3%;
     box-shadow: 2px 4px #e4e4e4 inset;
@@ -430,8 +430,8 @@ span {
     }
     .activity_bg_body_left {
         top: 30%;
-        left: 32.5%;
-        width: 35%;
+        left: 25%;
+        width: 50%;
         height: 65%;
     }
     /* .activity_bg_body_right {
