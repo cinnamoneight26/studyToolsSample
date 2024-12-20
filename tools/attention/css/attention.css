@@ -108,11 +108,11 @@ button, input {
 }
 .attention_text {
     position: absolute;
-    width: 50%;
-    height: 25%;
-    top : 17%;
-    left: 25%;
-    background-image: url('../images/attention.png');
+    width: 30%;
+    height: 29%;
+    top: 17%;
+    left: 35%;
+    background-image: url(../images/attention.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: none;
@@ -127,7 +127,7 @@ button, input {
     font-family: 'NotoSansKR_Bold';
     text-align: center;
     font-size: 5vmin;
-    line-height: 21vmin;
+    line-height: 22.5vmin;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     cursor: pointer;
