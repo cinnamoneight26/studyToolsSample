@@ -1174,7 +1174,7 @@ $(document).on("click", ".icon-font-lg", function () {
 
   var setFontSize = parseInt(_fontSize[0]) + 10;
   if (setFontSize > 100) {
-    alert("가장 큰 폰트 사이즈는 100pt입니다.");
+    alert("The largest font size is 100pt.");
     return;
   } else {
     $(".fs_text").text(parseInt(setFontSize) + "pt");
@@ -1204,7 +1204,7 @@ $(document).on("click", ".icon-font-sm", function () {
 
   var setFontSize = parseInt(_fontSize[0]) - 10;
   if (setFontSize < 50) {
-    alert("가장 작은 폰트 사이즈는 50pt입니다.");
+    alert("The smallest font size is 50pt.");
     return;
   } else {
     $(".fs_text").text(parseInt(setFontSize) + "pt");
