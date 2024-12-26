@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       // PC에서는 경고 메시지를 숨기고 콘텐츠 표시
       document.getElementById("device-warning").style.display = "none";
-      document.querySelector("header").style.display = "block";
+      document.querySelector("header").style.display = "flex";
       document.querySelector("nav").style.display = "block";
       document.querySelector("main").style.display = "flex";
       iframeContainer.style.display = "none";

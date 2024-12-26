@@ -15,23 +15,29 @@ body {
 
 header {
     position: relative;
-    ;
     left: 0;
     top: 0;
     padding: 20px 0;
     margin-left: 20px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center
 }
 
 header h1 {
-    margin: 0px;
+    margin: 0px 10px 0px 0px;
 }
 
 header h1 a {
     color: white !important;
     text-decoration: none !important;
 }
-
+header a {
+    display: flex;
+}
+header a img {
+    cursor: pointer;
+}
 main {
     height: calc(100vh - 90px);
     display: flex;
