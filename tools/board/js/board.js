@@ -307,41 +307,41 @@ $(document).on("click", ".select_a_d", function () {
   if (direction == "forward") {
     $(".select_arrow_direction_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-1-active.png")'
+      'url("./images/icon-figure5-1-active.png")'
     );
     $(".select_arrow_direction_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-2.png")'
+      'url("./images/icon-figure5-2.png")'
     );
     $(".select_arrow_direction_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-3.png")'
+      'url("./images/icon-figure5-3.png")'
     );
   } else if (direction == "reverse") {
     $(".select_arrow_direction_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-1.png")'
+      'url("./images/icon-figure5-1.png")'
     );
     $(".select_arrow_direction_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-2-active.png")'
+      'url("./images/icon-figure5-2-active.png")'
     );
     $(".select_arrow_direction_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-3.png")'
+      'url("./images/icon-figure5-3.png")'
     );
   } else if (direction == "bidirectional") {
     $(".select_arrow_direction_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-1.png")'
+      'url("./images/icon-figure5-1.png")'
     );
     $(".select_arrow_direction_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-2.png")'
+      'url("./images/icon-figure5-2.png")'
     );
     $(".select_arrow_direction_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure5-3-active.png")'
+      'url("./images/icon-figure5-3-active.png")'
     );
   }
 
@@ -387,107 +387,107 @@ $(document).on("click", ".select_a_w", function () {
   if (width == 2) {
     $(".select_arrow_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1-active.png")'
+      'url("./images/icon-figure6-1-active.png")'
     );
     $(".select_arrow_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_arrow_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_arrow_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_arrow_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 4) {
     $(".select_arrow_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_arrow_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2-active.png")'
+      'url("./images/icon-figure6-2-active.png")'
     );
     $(".select_arrow_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_arrow_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_arrow_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 6) {
     $(".select_arrow_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_arrow_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_arrow_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3-active.png")'
+      'url("./images/icon-figure6-3-active.png")'
     );
     $(".select_arrow_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_arrow_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 8) {
     $(".select_arrow_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_arrow_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_arrow_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_arrow_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4-active.png")'
+      'url("./images/icon-figure6-4-active.png")'
     );
     $(".select_arrow_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 10) {
     $(".select_arrow_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_arrow_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_arrow_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_arrow_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_arrow_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5-active.png")'
+      'url("./images/icon-figure6-5-active.png")'
     );
   }
   drawing_canvas.setMode("arrow");
@@ -532,41 +532,41 @@ $(document).on("click", ".select_a_ds", function () {
   if (dash == "dash_1") {
     $(".select_arrow_dash_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-1-active.png")'
+      'url("./images/icon-figure7-1-active.png")'
     );
     $(".select_arrow_dash_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-2.png")'
+      'url("./images/icon-figure7-2.png")'
     );
     $(".select_arrow_dash_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-3.png")'
+      'url("./images/icon-figure7-3.png")'
     );
   } else if (dash == "dash_2") {
     $(".select_arrow_dash_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-1.png")'
+      'url("./images/icon-figure7-1.png")'
     );
     $(".select_arrow_dash_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-2-active.png")'
+      'url("./images/icon-figure7-2-active.png")'
     );
     $(".select_arrow_dash_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-3.png")'
+      'url("./images/icon-figure7-3.png")'
     );
   } else if (dash == "dash_3") {
     $(".select_arrow_dash_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-1.png")'
+      'url("./images/icon-figure7-1.png")'
     );
     $(".select_arrow_dash_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-2.png")'
+      'url("./images/icon-figure7-2.png")'
     );
     $(".select_arrow_dash_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-3-active.png")'
+      'url("./images/icon-figure7-3-active.png")'
     );
   }
 
@@ -669,107 +669,107 @@ $(document).on("click", ".select_l_w", function () {
   if (width == 2) {
     $(".select_line_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1-active.png")'
+      'url("./images/icon-figure6-1-active.png")'
     );
     $(".select_line_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_line_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_line_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_line_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 4) {
     $(".select_line_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_line_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2-active.png")'
+      'url("./images/icon-figure6-2-active.png")'
     );
     $(".select_line_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_line_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_line_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 6) {
     $(".select_line_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_line_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_line_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3-active.png")'
+      'url("./images/icon-figure6-3-active.png")'
     );
     $(".select_line_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_line_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 8) {
     $(".select_line_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_line_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_line_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_line_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4-active.png")'
+      'url("./images/icon-figure6-4-active.png")'
     );
     $(".select_line_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5.png")'
+      'url("./images/icon-figure6-5.png")'
     );
   } else if (width == 10) {
     $(".select_line_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_line_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_line_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
     $(".select_line_width_4").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-4.png")'
+      'url("./images/icon-figure6-4.png")'
     );
     $(".select_line_width_5").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-5-active.png")'
+      'url("./images/icon-figure6-5-active.png")'
     );
   }
   drawing_canvas.setMode("straight");
@@ -809,41 +809,41 @@ $(document).on("click", ".select_l_ds", function () {
   if (dash == "dash_1") {
     $(".select_line_dash_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-1-active.png")'
+      'url("./images/icon-figure7-1-active.png")'
     );
     $(".select_line_dash_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-2.png")'
+      'url("./images/icon-figure7-2.png")'
     );
     $(".select_line_dash_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-3.png")'
+      'url("./images/icon-figure7-3.png")'
     );
   } else if (dash == "dash_2") {
     $(".select_line_dash_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-1.png")'
+      'url("./images/icon-figure7-1.png")'
     );
     $(".select_line_dash_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-2-active.png")'
+      'url("./images/icon-figure7-2-active.png")'
     );
     $(".select_line_dash_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-3.png")'
+      'url("./images/icon-figure7-3.png")'
     );
   } else if (dash == "dash_3") {
     $(".select_line_dash_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-1.png")'
+      'url("./images/icon-figure7-1.png")'
     );
     $(".select_line_dash_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-2.png")'
+      'url("./images/icon-figure7-2.png")'
     );
     $(".select_line_dash_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure7-3-active.png")'
+      'url("./images/icon-figure7-3-active.png")'
     );
   }
   drawing_canvas.setMode("straight");
@@ -948,41 +948,41 @@ $(document).on("click", ".select_h_w", function () {
   if (hlighter_width == "12") {
     $(".select_hlighter_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1-active.png")'
+      'url("./images/icon-figure6-1-active.png")'
     );
     $(".select_hlighter_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_hlighter_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
   } else if (hlighter_width == "18") {
     $(".select_hlighter_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_hlighter_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2-active.png")'
+      'url("./images/icon-figure6-2-active.png")'
     );
     $(".select_hlighter_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3.png")'
+      'url("./images/icon-figure6-3.png")'
     );
   } else if (hlighter_width == "24") {
     $(".select_hlighter_width_1").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-1.png")'
+      'url("./images/icon-figure6-1.png")'
     );
     $(".select_hlighter_width_2").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-2.png")'
+      'url("./images/icon-figure6-2.png")'
     );
     $(".select_hlighter_width_3").css(
       "background-image",
-      'url("/tools/board/images/icon-figure6-3-active.png")'
+      'url("./images/icon-figure6-3-active.png")'
     );
   }
   drawing_canvas.opacity = 0.5;
@@ -1012,6 +1012,7 @@ $(document).on("click", ".icon-sticker", function () {
 $(document).on("click", ".sticker_select", function () {
   var select_sticker = $(this).attr("data-sticker");
   var _url = "./images/" + select_sticker + ".png";
+  // var _url = "./images/" + select_sticker + ".png";
 
   drawing_canvas.setMode("image");
   drawing_canvas.stop_drawHlighter();
