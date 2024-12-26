@@ -203,7 +203,7 @@ button, input {
     vertical-align:top
 }
 #drawing>*+*{
-    border-left:1px solid #e5e5e5
+    /* border-left:1px solid #e5e5e5 */
 }
 #palette{
     display: none;
@@ -211,7 +211,7 @@ button, input {
     padding: 8px;
 }
 .palette{
-    margin:4px 13.5px;
+    margin:4px 10px;
 }
 .palette.active{
     padding-top: 6px;

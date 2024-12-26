@@ -1011,7 +1011,7 @@ $(document).on("click", ".icon-sticker", function () {
 // 도형 - 스티커 선택
 $(document).on("click", ".sticker_select", function () {
   var select_sticker = $(this).attr("data-sticker");
-  var _url = "/tools/board/images/" + select_sticker + ".png";
+  var _url = "./images/" + select_sticker + ".png";
 
   drawing_canvas.setMode("image");
   drawing_canvas.stop_drawHlighter();
