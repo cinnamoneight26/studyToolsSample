@@ -48,8 +48,21 @@
         </section>
 
         <!-- Menu description section, initially visible -->
-        <section id="menu-description">
-            TEST1
+        <section id="page-description" style="padding: 20px; display: flex; justify-content: center;">
+            <div
+                style="max-width: 700px; background: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <img src="./images/contents_1.png" alt="Teaching tools illustration"
+                    style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px;" />
+                <div class="contentsBox">
+                    <p style="font-size: 1em; line-height: 1.6; text-align: center;">
+                        This web page was created to test some teaching tools implemented in a web viewer for digital textbooks.
+                        These tools were developed while working in Korea to enable viewing of electronic textbooks in web browsers.
+                        To explore the functionality of each menu, click the <img src="./images/info.svg" /> icon for detailed descriptions.
+                        Due to copyright restrictions, not all features and content could be fully implemented, so this page serves as a
+                        simplified version for demonstration purposes.
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
     <!-- 메시지 영역, 기본적으로 숨김 -->
@@ -62,7 +75,9 @@
         <div class="modal-header">
             <div class="modal-title">
                 <h2>Menu Descriptions</h2>
-                <button class="close-btn">X</button>
+                <button class="close-btn">
+                            <img src="./images/close.svg" title="Close Menu Descriptions Modal" alt="Close Menu Descriptions Modal" id="open-modal-btn" />
+                </button>
             </div>
         </div>
         <div class="modal-body">

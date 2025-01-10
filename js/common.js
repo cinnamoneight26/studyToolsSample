@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const menuItems = document.querySelectorAll("nav ul li span");
   const iframeContainer = document.getElementById("iframe-container");
-  const menuDescription = document.getElementById("menu-description");
+  const menuDescription = document.getElementById("page-description");
   const iframe = document.getElementById("menu-iframe");
 
   const openModalBtn = document.getElementById("open-modal-btn");

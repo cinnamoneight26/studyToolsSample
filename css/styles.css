@@ -77,15 +77,21 @@ li span.active {
 iframe{
     border: none !important;
 }
-#menu-description {
-    height: fit-content;
+.contentsBox {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(108, 76, 64);
 }
-#menu-description li {
-    list-style: none;
-    margin-bottom: 40px;
+#page-description {
+    position: relative;
+    display: flex;
+    gap: 20px;
 }
-#menu-description li p {
-    margin-left: 20px;
+#page-description > div {
+    width: 50%;
+}
+.content-image img {
+    width: 100%;
 }
 #device-warning {
     display: none;
